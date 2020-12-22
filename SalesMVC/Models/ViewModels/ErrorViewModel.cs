@@ -1,7 +1,9 @@
 using System;
 
-namespace SalesMVC.Models {
-    public class ErrorViewModel {
+namespace SalesMVC.Models.ViewModels
+{
+    public class ErrorViewModel
+    {
         public string RequestId { get; set; }
 
         public bool ShowRequestId => !string.IsNullOrEmpty(RequestId);
